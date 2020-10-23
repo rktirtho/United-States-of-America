@@ -8,16 +8,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-Button btnStates;
+Button btnStates, btnAbout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
 
-
-
         btnStates.setOnClickListener(this);
+        btnAbout.setOnClickListener(this);
     }
 
     @Override
@@ -34,5 +33,6 @@ Button btnStates;
 
     private void init(){
         btnStates =  findViewById(R.id.btn_states);
+        btnAbout =  findViewById(R.id.about);
     }
 }
