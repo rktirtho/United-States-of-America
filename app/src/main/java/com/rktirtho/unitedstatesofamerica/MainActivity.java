@@ -27,6 +27,8 @@ Button btnStates;
             case R.id.btn_states:
                 startActivity(new Intent(MainActivity.this, StatesList.class));
                 break;
+            case R.id.about:
+                startActivity(new Intent(MainActivity.this, About.class));
         }
     }
 

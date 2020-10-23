@@ -6,11 +6,12 @@
 
     <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
     <string name="start_level">Level 1</string>
-    <string name="next_level">Next Level</string>
+    <string name="about">United States, officially United States of America, abbreviated U.S. or U.S.A., byname America, country in North America, a federal republic of 50 states. Besides the 48 conterminous states that occupy the middle latitudes of the continent, the United States includes the state of Alaska, at the northwestern extreme of North America, and the island state of Hawaii, in the mid-Pacific Ocean. The conterminous states are bounded on the north by Canada, on the east by the Atlantic Ocean, on the south by the Gulf of Mexico and Mexico, and on the west by the Pacific Ocean. The United States is the fourth largest country in the world in area (after Russia, Canada, and China). The national capital is Washington, which is coextensive with the District of Columbia, the federal capital region created in 1790.</string>
     <!-- -
         This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
         For more information, see https://support.google.com/admob/answer/3052638
     <!- -->
     <string name="states_view_interstitial_ad_unit_id">ca-app-pub-1715940374350821/6459111342</string>
     <string name="about_interstitial_ad_unit_id">ca-app-pub-1715940374350821/2540386947</string>
+    <string name="about_interstitial_ad_unit_id_banner">ca-app-pub-1715940374350821/4200613668</string>
 </resources>

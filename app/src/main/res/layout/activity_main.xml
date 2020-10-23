@@ -31,7 +31,15 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-
+                <Button
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/cornershape"
+                    android:text="History of USA"
+                    android:textAllCaps="false"
+                    android:textSize="20sp" />
                 <Button
                     android:id="@+id/btn_states"
                     android:layout_width="match_parent"
@@ -42,15 +50,7 @@
                     android:textAllCaps="false"
                     android:textSize="20sp" />
 
-                <Button
-                    android:id="@+id/btnPoliticalParty"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="10dp"
-                    android:background="@drawable/cornershape"
-                    android:text="History"
-                    android:textAllCaps="false"
-                    android:textSize="20sp" />
+
 
                 <Button
                     android:id="@+id/btnDied"
